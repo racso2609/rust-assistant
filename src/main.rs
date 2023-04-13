@@ -1,5 +1,3 @@
-mod text_bot;
-mod actions;
 use text_bot::invoke_crab;
 use dotenv::dotenv;
 
