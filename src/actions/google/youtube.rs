@@ -6,7 +6,6 @@ pub struct YoutubeSearchResponse {
     pub kind: String,
     pub etag: String,
     pub nextPageToken: String,
-    pub regionCode: String,
     pub pageInfo: YoutubePageInfo,
     pub items: Vec<YoutubeSearchItem>,
 }
@@ -27,7 +26,7 @@ pub struct YoutubeSearchItem {
 #[derive(Serialize, Deserialize, Debug)]
 pub struct YoutubeIdentifier {
     pub kind: String,
-    pub videoId: String,
+    pub videoId: String
 }
 
 impl YoutubeSearchResponse {

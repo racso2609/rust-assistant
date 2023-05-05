@@ -1,4 +1,4 @@
-use text_bot::invoke_crab;
+use hello_rust::text_bot::invoke_crab;
 use dotenv::dotenv;
 
 fn main() {
