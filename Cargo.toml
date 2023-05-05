@@ -10,6 +10,9 @@ dotenv = "0.15.0"
 ferris-says = "0.2"
 exitfailure = "0.5.1"
 
+ds-transcriber = { version = "1", features = ["denoise"] } # or features = ["full"]
+anyhow = "1"
+
 reqwest = { version = "0.11", features = ["json"] } # reqwest with JSON parsing support
 futures = "0.3" # for our async / await blocks
 tokio = { version = "1.12.0", features = ["full"] } # for our async runtime
