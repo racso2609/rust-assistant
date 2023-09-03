@@ -9,8 +9,8 @@ edition = "2021"
 dotenv = "0.15.0"
 ferris-says = "0.2"
 exitfailure = "0.5.1"
+portaudio = "0.7.0"
 
-ds-transcriber = { version = "1", features = ["denoise"] } # or features = ["full"]
 anyhow = "1"
 
 reqwest = { version = "0.11", features = ["json"] } # reqwest with JSON parsing support
